@@ -1,0 +1,32 @@
+name = gaia (mother of kronos/cronos -- hints to installing cron script)
+gaiaClient
+
+save ldap script as base64, save filename+type too
+
+runperiod; allow for @reboot, @yearly, @monthly, @weekly, @daily, @hourly and custom (cron notation: minute hour day-of-month month day-of-week)
+also allow for custom crontab file
+
+convert this script to binary and save to /usr/local/bin/ 
+script should be run daily for updates (conf file) but should also be able to be manually triggered
+create .deb for easy install
+
+script needs to: 
+ - connect to ldap (conf file for ldap connection)
+ - find script under its system dn (conf file - default assume basedn,ou=systems,ou=servers,cn=hostname)
+ - get script runperiod 
+ - get script additional arguments (like MAILTO)
+ - install script to /etc/gaia/scripts/
+ - install crontab to /etc/cron.d/<script>
+	- first search for custom crontab file
+		- if it exists, install to /etc/cron.d/
+ 	- cron will only run crontabs using alphanumeric + '-' + '_' files
+ - crontab file need PATH and SHELL (e.g.: SHELL=/bin/bash PATH=~/bin:/usr/bin:/bin:/usr/local/bin
+	- crontab needs option for MAILTO
+	- crontab needs to define "root" as user (# m h dom mon dow user	command)
+
+useful links:
+https://www.baeldung.com/linux/convert-script-into-binary
+https://www.baeldung.com/linux/create-debian-package
+https://manpages.debian.org/stretch/cron/cron.8
+https://manpages.debian.org/stretch/cron/crontab.5.en.html
+https://www.baeldung.com/linux/ldap-command-line-authentication

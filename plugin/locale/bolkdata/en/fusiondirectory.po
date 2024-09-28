@@ -1,0 +1,243 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR FusionDirectory Project
+# This file is distributed under the same license as the FusionDirectory package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: FusionDirectory VERSION\n"
+"Report-Msgid-Bugs-To: beheer@nieuwedelft.nl\n"
+"POT-Creation-Date: 2022-09-29 03:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Melody (bolk@personaltardis.me)\n"
+"Language-Team: English\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: config/bolkdata/class_bolkdataConfig.inc:26
+msgid "BolkData configuration"
+msgstr ""
+
+#: config/bolkdata/class_bolkdataConfig.inc:27
+msgid "BolkData plugin configuration"
+msgstr ""
+
+msgid "Forward mails"
+msgstr ""
+
+msgid "Should emails to this member be forwarded to them?"
+msgstr ""
+
+#: config/bolkdata/class_bolkdataConfig.inc:40
+#: personal/bolkdata/class_personalInfo.inc:25
+msgid "BolkData"
+msgstr ""
+
+#: config/bolkdata/class_bolkdataConfig.inc:43
+msgid "Allow use of private email for password recovery"
+msgstr ""
+
+#: config/bolkdata/class_bolkdataConfig.inc:43
+msgid "Allow users to use their private email address for password recovery"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:26
+msgid "Bolk member information"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:43
+msgid "Personal info"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:46
+msgid "Nickname"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:46
+msgid "Nickname for this user"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:50
+msgid "Date of birth"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:62
+msgid "Pronouns"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:62
+msgid "Pronouns this person uses"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:68
+msgid "Programme"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:68
+msgid "Programme(s) this member does"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:74
+msgid "Institution"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:74
+msgid "The institution(s) the member attends"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:80
+msgid "Emergency contact number"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:80
+msgid "Phone number of the member's emergency contact"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:86
+msgid "Membership Info"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:89
+msgid "Membership"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:91
+msgid "candidate member"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:91
+msgid "member"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:91
+msgid "former member"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:91
+msgid "ex-member"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:91
+msgid "not a member"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:94
+msgid "Date of inauguration"
+msgstr ""
+
+msgid "IRA done"
+msgstr ""
+
+msgid "Did this member complete the Instruction Responsible Alcohol"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:100
+msgid "Year Name"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:104
+msgid "Date of resignation letter"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:110
+msgid "Date of resignation"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:116
+msgid "Dead"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:116
+msgid "Has this member passed away?"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:120
+msgid "Photo Visible"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:120
+msgid "Should the photo of the user be visible on external tools?"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:128
+msgid "AVG accepted"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:128
+msgid "Did this member agree to the privacy statement"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:132
+msgid "Share phone number"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:132
+msgid "Does this member allow to internally share their phone number"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:137
+msgid "Share emergency phone number"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:131
+msgid "Does this member allow to internally share their emergency contact?"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:135
+msgid "Share mail address"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:135
+msgid "Does this member allow to internally share their mail address"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:139
+msgid "Share home address"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:139
+msgid "Does this member allow to internally share their home address"
+msgstr ""
+
+msgid "Share pronouns"
+msgstr ""
+
+msgid "Does this member allow to internally share their pronouns"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:147
+msgid "Share date of birth"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:147
+msgid "Does this member allow to internally share their date of birth"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:151
+msgid "Share programme"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:151
+msgid "Does this member allow to internally share their programme"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:155
+msgid "Share institution"
+msgstr ""
+
+#: personal/bolkdata/class_bolkData.inc:155
+msgid "Does this member allow to internally share where they study"
+msgstr ""
+
+#: personal/bolkdata/class_bolkDataMail.inc
+msgid "Bolk mail information"
+msgstr ""
+
+msgid "Parent Mail Address"
+msgstr ""
+
+msgid "Parent e-mail address which this e-mail inherits ACL\'s from"
+msgstr ""
